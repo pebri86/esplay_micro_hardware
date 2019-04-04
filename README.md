@@ -1,7 +1,7 @@
 # EsPlay Micro Hardware
 This board is micro version (smaller device but same as powerfull as big brother EsPlay Hardware), an ESP 32 Based gaming console portable.
-!(https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_bottom.png)[bottom_layer]
-!(https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_top.png)[top_layer]
+![bottom_layer](https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_bottom.png)
+![top_layer](https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_top.png)
 
 Featured
 --------
