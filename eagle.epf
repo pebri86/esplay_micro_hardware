@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 02 02"
+Version="09 03 02"
 Platform="Linux"
 Globals="Globals"
 Desktop="Desktop"
@@ -328,5 +328,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="2732 768"
 Window="Win_1"

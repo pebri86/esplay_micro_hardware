@@ -23,3 +23,12 @@ Featured
 Firmwares
 ---------
 Currently no firmware release for this board but it's fairly easy to port from Esplay repository or odroid go. Later i'll add software support for this hardware.
+
+Changelogs
+----------
+
+### 06 May 2019
+- Add amplifier circuits for internal speaker.
+- Add ground for EXP pin ESP32 Wrover module.
+- Connect micro usb shield to ground.
+- Remove some unnecessary vias.
