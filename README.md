@@ -13,19 +13,27 @@ Featured
 - More button (expanded via PCF8574 I2C GPIO)
 - Micro SD slot connected to SDMMC Host in 1 Line Mode for save GPIO pin
 - Integrated I2S DAC via UDA1334A
-- Integrated USB to Serial for programming and debugging using CH340C
-- Built-in TP4056 Li-Po charger
-- Touchscreen, yes resitive touchscreen of ili9341 now connected to ESP32 GPIO
+- Integrated USB to Serial for programming and debugging using CH340C/G
+- Built-in ~~TP4056~~ LTC4054 Li-Po charger
+- ~~Touchscreen, yes resitive touchscreen of ili9341 now connected to ESP32 GPIO~~
 - I2C port for expandable function
 - 3,5mm Headphone jack
 - Smaller Size, PCB only 100 x 50 mm.
 
 Firmwares
 ---------
-Currently no firmware release for this board but it's fairly easy to port from Esplay repository or odroid go. Later i'll add software support for this hardware.
+Firmware available visit my repository [here](https://github.com/pebri86/esplay-retro-emulation) for firmware and emulators.
 
 Changelogs
 ----------
+### 27 Aug 2019
+- Remove touchscreen control due to other function that more important
+- Audio amplifier shutdown
+- Audio amplifier chip change to PAM8304
+- Change li-po charger with LTC4054
+- Add Charger management sensing (USB plug and Chrge state)
+- Add ESD Protection on SDCard
+- Add status LED (charging) controlled via ESP32 GPIO
 
 ### 06 May 2019
 - Add amplifier circuits for internal speaker.
