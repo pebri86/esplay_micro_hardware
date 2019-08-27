@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-27T06:38:33Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "new_esplay"
+        },
+        "Owner": "pebri86 pebri86 <pebri86@gmail.com>",
+        "Size": {
+            "X": 100.00005,
+            "Y": 49.999903
+        }
+    }
+}
