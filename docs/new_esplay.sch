@@ -6270,12 +6270,12 @@ Diode with low voltage drop</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:12892397" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="ESPLAY MICRO"/>
-<attribute name="CREVISION" value="2.0"/>
+<attribute name="CREVISION" value="2.1"/>
 <attribute name="DESIGNER" value="FUJI PEBRI"/>
 </part>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:12892397" deviceset="FRAME-A4L" device="">
 <attribute name="CNAME" value="ESPLAY MICRO"/>
-<attribute name="CREVISION" value="2.0"/>
+<attribute name="CREVISION" value="2.1"/>
 <attribute name="DESIGNER" value="FUJI PEBRI"/>
 </part>
 <part name="A1" library="ESP32-WROVER-I" library_urn="urn:adsk.eagle:library:12864062" deviceset="ESP32-WROVER-I" device="" package3d_urn="urn:adsk.eagle:package:12864065/2"/>
@@ -6365,7 +6365,7 @@ Diode with low voltage drop</description>
 <part name="R39" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="220K"/>
 <part name="R40" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="220K"/>
 <part name="R32" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="1"/>
-<part name="R37" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="1K"/>
+<part name="R37" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="1"/>
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -6551,9 +6551,9 @@ Diode with low voltage drop</description>
 <attribute name="NAME" x="170.18" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="170.18" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="T2" gate="G$1" x="165.1" y="147.32" smashed="yes">
-<attribute name="NAME" x="170.18" y="147.32" size="1.778" layer="95"/>
-<attribute name="VALUE" x="170.18" y="144.78" size="1.778" layer="96"/>
+<instance part="T2" gate="G$1" x="165.1" y="147.32" smashed="yes" rot="MR180">
+<attribute name="NAME" x="170.18" y="147.32" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="170.18" y="149.86" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R8" gate="G$1" x="149.86" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="149.86" y="161.036" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
@@ -7199,14 +7199,14 @@ Diode with low voltage drop</description>
 <label x="55.88" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="T2" gate="G$1" pin="E"/>
-<wire x1="167.64" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
-<label x="172.72" y="142.24" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <label x="109.22" y="66.04" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="C"/>
+<wire x1="167.64" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="172.72" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SD_DAT0" class="0">
@@ -7465,9 +7465,9 @@ Diode with low voltage drop</description>
 <wire x1="139.7" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="162.56" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 <junction x="139.7" y="162.56"/>
-<pinref part="T2" gate="G$1" pin="C"/>
-<wire x1="139.7" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 <label x="137.16" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="T2" gate="G$1" pin="E"/>
+<wire x1="139.7" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UP" class="0">
