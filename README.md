@@ -1,8 +1,6 @@
 # ESPlay Micro Hardware
 This board is micro version (smaller device but same as powerfull as big brother EsPlay Hardware), an ESP 32 Based portable gaming console. See the project logs at my [hackaday] page. Also if you want this board without much effort, you can buy it at [Makerfabs Online Store] they sell the PCB Assembly so you can get the board which ready to play.
-
 ![bottom_layer](https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_bottom.png)
-
 ![top_layer](https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_top.png)
 
 Featured
