@@ -1,5 +1,5 @@
 # EsPlay Micro Hardware
-This board is micro version (smaller device but same as powerfull as big brother EsPlay Hardware), an ESP 32 Based portable gaming console.
+This board is micro version (smaller device but same as powerfull as big brother EsPlay Hardware), an ESP 32 Based portable gaming console. See the project logs at my [hackaday] page. Also if you want this board without much effort, you can buy it at [Makerfabs Online Store].
 
 ![bottom_layer](https://raw.githubusercontent.com/pebri86/esplay_micro_hardware/master/docs/esplay_micro_bottom.png)
 
@@ -22,10 +22,15 @@ Featured
 
 Firmwares
 ---------
-Firmware available visit my repository [here](https://github.com/pebri86/esplay-retro-emulation) for firmware and emulators.
+Flash this board with this [bootloader] for the ability flashing via sdcard, so you doesn't need computer to switch application firmware, and last but not least the emulator itself for playing the game [ESPlay Retro Emulation].
 
 Changelogs
 ----------
+### 01 Oct 2019
+- Bugs fix brighness control issue
+- Bugs fix autoreset circuit
+- Bugs fix audiojack placement
+
 ### 27 Aug 2019
 - Remove touchscreen control due to other function that more important
 - Audio amplifier shutdown
@@ -40,3 +45,8 @@ Changelogs
 - Add ground for EXP pin ESP32 Wrover module.
 - Connect micro usb shield to ground.
 - Remove some unnecessary vias.
+
+[Makerfabs Online Store]: https://www.makerfabs.com/esplay-micro.html
+[hackaday]: https://hackaday.io/project/166707-esplay-micro
+[bootloader]: https://github.com/pebri86/esplay-base-firmware
+[ESPlay Retro Emulation]: https://github.com/pebri86/esplay-retro-emulation
