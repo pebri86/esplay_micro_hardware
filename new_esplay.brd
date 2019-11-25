@@ -3,7 +3,7 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -3565,7 +3565,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-09883" x="-49.53" y="-55.88" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="11.43" y="34.671" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" package="0805" package3d_urn="urn:adsk.eagle:package:12877276/2" value="100" x="63.5" y="27.94" smashed="yes" rot="MR270">
+<element name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" package="0805" package3d_urn="urn:adsk.eagle:package:12877276/2" value="10" x="63.5" y="27.94" smashed="yes" rot="MR270">
 <attribute name="NAME" x="61.849" y="27.94" size="0.8128" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09883" x="154.94" y="-36.83" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="64.389" y="27.94" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>

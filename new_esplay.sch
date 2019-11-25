@@ -6303,7 +6303,7 @@ Diode with low voltage drop</description>
 <part name="LCD1" library="TFTDisplays" library_urn="urn:adsk.eagle:library:12878763" deviceset="ILI9341-2.4" device="" package3d_urn="urn:adsk.eagle:package:12878774/2"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:12892623" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:12892688/2" value="600mA/40V"/>
-<part name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="100"/>
+<part name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="10"/>
 <part name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:12877214" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:12877276/2" value="100K"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="T1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:12892623" deviceset="TRANS_NPN" device="-MMBT2222AL" package3d_urn="urn:adsk.eagle:package:12892688/2" value="600mA/40V"/>
