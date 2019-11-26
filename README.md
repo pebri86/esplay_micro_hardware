@@ -22,6 +22,8 @@ Firmwares
 ---------
 Flash this board with this [bootloader] for the ability flashing via sdcard, so you doesn't need computer to switch application firmware, and last but not least the emulator itself for playing the game [ESPlay Retro Emulation].
 
+There is also collections of available compiled firmware (.fw) application files on my repo [Firmware Collections]
+
 Changelogs
 ----------
 ### 01 Oct 2019
@@ -48,3 +50,4 @@ Changelogs
 [hackaday]: https://hackaday.io/project/166707-esplay-micro
 [bootloader]: https://github.com/pebri86/esplay-base-firmware
 [ESPlay Retro Emulation]: https://github.com/pebri86/esplay-retro-emulation
+[Firmware Collections]: https://github.com/pebri86/esplay-micro-firmware-collections
